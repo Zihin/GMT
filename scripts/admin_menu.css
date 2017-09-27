@@ -1,0 +1,35 @@
+#mb_menu {width:97%;}
+#mb_menu a{color:#369;font:14px/22px "宋体"; display:block; margin:1px; padding:0;}
+
+#mb_menu .hlight{font-weight:bold;}
+
+#mb_menu .lev1 a{padding-left:25px; background: #dbeaf5 12px 50% url(../imgs/cate.gif) no-repeat;}
+#mb_menu .lev2 a{padding-left:40px; background: #f0f8fe 27px 50% url(../imgs/cate.gif) no-repeat;}
+#mb_menu .lev3 a{padding-left:55px; background: #f0f8fe 42px 50% url(../imgs/cate.gif) no-repeat;}
+#mb_menu .lev4 a{padding-left:70px; background: #f9f9f9 67px 50% url(../imgs/cate.gif) no-repeat;}
+
+#mb_menu .main {
+  background:url(../imgs/nav_l.gif) no-repeat left top;
+  padding:0 0 0 4px;
+  text-decoration:none;
+}
+#mb_menu .main span {
+  font:14px "宋体";
+  font-weight:bold;
+  display:block;
+  background:url(../imgs/nav_r.gif) no-repeat right top;
+  padding:6px 12px 4px 6px;
+  color:#FFF;
+}
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+#mb_menu .main span {float:none;}
+/* End IE5-Mac hack */
+#mb_menu .main:hover span {
+  color:#FFF;
+}
+#mb_menu .main:hover {
+  background-position:0% -42px;
+}
+#mb_menu .main:hover span {
+  background-position:100% -42px;
+}

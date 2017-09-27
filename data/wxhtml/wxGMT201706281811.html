@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Language" content="zh-cn">
+<title>GMT充值跳转</title>
+<link href="../../css/wechat_pay.css" rel="stylesheet" type="text/css" media="screen">
+</head>
+<body>
+    <h1 class="mod-title">
+        <span class="ico-wechat"></span><span class="text">微信支付</span>
+    </h1>
+    <div class="mod-ct">
+        <div class="order">
+        </div>
+        <div class="amount">￥830.00</div>
+        <div id="qrcode" class="qr-image">
+            <!--二维码图片-->
+    	</div>
+        <!--detail-open 加上这个类是展示订单信息，不加不展示-->
+        <div class="detail detail-open" id="orderDetail" style="">
+            <dl class="detail-ct" style="display: block;">
+                <dt>商家</dt>
+                <dd id="storeName">GMT</dd>
+                <dt>商品名称</dt>
+                <dd id="productName">演奏文凭3级</dd>
+                <dt>交易单号</dt>
+                <dd id="billId">GMT201706281811</dd>
+                <dt>创建时间</dt>
+                <dd id="createTime">2017-06-28 20:18:25</dd>
+            </dl>
+        </div>
+        <div class="tip">
+            <span class="dec dec-left"></span>
+            <span class="dec dec-right"></span>
+            <div class="ico-scan"></div>
+            <div class="tip-text">
+                <p>请使用微信扫一扫支付</p>
+                <p>完成支付后关闭此页面</p>
+            </div>
+        </div>
+     </div>
+
+    <div class="foot">
+        <div class="inner">
+            <p>您若对上述交易有疑问</p>
+            <p>请联系我们的客服 <a href="javascript:void(0);" class="link"></a></p>
+        </div>
+    </div>
+	<script src="../../js/qrcode.js"></script>
+	<script src="../../js/jquery-1.7.2.min.js"></script>
+	<script>
+		window.onload = function(){
+			var url = 'weixin://wxpay/bizpayurl?pr=u8zogNA';
+			var qr = qrcode(10, 'M');
+			qr.addData(url);
+			qr.make();
+			var code=document.createElement('DIV');
+			code.innerHTML = qr.createImgTag();
+			var element=document.getElementById("qrcode");
+			element.appendChild(code);
+			var timer = setInterval(function(){
+				$.get("index.php?member,checkpay,test_id,245",function(data){
+					var data = JSON.parse(data);
+					if(data.status){
+						clearInterval(timer);
+						$("#notify_button").removeClass("pay_botton");
+						$("#notify_button").addClass("pay_success_botton");
+						setTimeout("CloseWebPage()",3000);
+						window.location.href="http://"+window.location.host;
+					}
+				});
+			},5000);
+		};
+
+		function CloseWebPage(){
+		 if (navigator.userAgent.indexOf("MSIE") > 0) {
+		  if (navigator.userAgent.indexOf("MSIE 6.0") > 0) {
+		   window.opener = null;
+		   window.close();
+		  } else {
+		   window.open("", "_top");
+		   window.top.close();
+		  }
+		 }
+		 else if (navigator.userAgent.indexOf("Firefox") > 0) {
+		  window.location.href = "about:blank ";
+		 } else {
+		  window.opener = null;
+		  window.open("", "_self", "");
+		  window.close();
+		 }
+		}
+	</script>
+</body>
+</html>

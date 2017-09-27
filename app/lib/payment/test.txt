@@ -1,0 +1,176 @@
+Array
+(
+    [GLOBALS] => Array
+ *RECURSION*
+    [HTTP_RAW_POST_DATA] => <xml><appid><![CDATA[wx81b12ea3daceaf59]]></appid>
+<bank_type><![CDATA[CFT]]></bank_type>
+<cash_fee><![CDATA[1]]></cash_fee>
+<code><![CDATA[wxpay]]></code>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[N]]></is_subscribe>
+<mch_id><![CDATA[1311354601]]></mch_id>
+<nonce_str><![CDATA[x1r5t675qwv82kydr4poatvewvm6n5vr]]></nonce_str>
+<openid><![CDATA[o1Nc2w3pKIizQJIEO0huvaPyRdoU]]></openid>
+<out_trade_no><![CDATA[GMT201612269429]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[6C8E95B0FA188EF89568877677659F27]]></sign>
+<time_end><![CDATA[20161226231300]]></time_end>
+<total_fee>1</total_fee>
+<trade_type><![CDATA[NATIVE]]></trade_type>
+<transaction_id><![CDATA[4003612001201612264106649789]]></transaction_id>
+</xml>
+    [_POST] => Array
+        (
+        )
+
+    [_GET] => Array
+        (
+        )
+
+    [_COOKIE] => Array
+        (
+        )
+
+    [_FILES] => Array
+        (
+        )
+
+    [_REQUEST] => Array
+        (
+            [code] => wxpay
+        )
+
+    [_SERVER] => Array
+        (
+            [HTTP_USER_AGENT] => Mozilla/4.0
+            [HTTP_ACCEPT] => */*
+            [HTTP_HOST] => www.gmtest.org.cn
+            [CONTENT_TYPE] => text/xml
+            [CONTENT_LENGTH] => 808
+            [HTTP_PRAGMA] => no-cache
+            [HTTP_CONNECTION] => Keep-Alive
+            [PATH] => C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;
+            [SystemRoot] => C:\Windows
+            [COMSPEC] => C:\Windows\system32\cmd.exe
+            [PATHEXT] => .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+            [WINDIR] => C:\Windows
+            [SERVER_SIGNATURE] => 
+            [SERVER_SOFTWARE] => Apache/2.4.10 (Win32) OpenSSL/0.9.8zb PHP/5.3.29
+            [SERVER_NAME] => www.gmtest.org.cn
+            [SERVER_ADDR] => 120.76.79.153
+            [SERVER_PORT] => 80
+            [REMOTE_ADDR] => 140.207.54.74
+            [DOCUMENT_ROOT] => E:/phpSL/WWW/gmt
+            [REQUEST_SCHEME] => http
+            [CONTEXT_PREFIX] => 
+            [CONTEXT_DOCUMENT_ROOT] => E:/phpSL/WWW/gmt
+            [SERVER_ADMIN] => admin@phpStudy.net
+            [SCRIPT_FILENAME] => E:/phpSL/WWW/gmt/respond.php
+            [REMOTE_PORT] => 40765
+            [GATEWAY_INTERFACE] => CGI/1.1
+            [SERVER_PROTOCOL] => HTTP/1.1
+            [REQUEST_METHOD] => POST
+            [QUERY_STRING] => 
+            [REQUEST_URI] => /respond.php
+            [SCRIPT_NAME] => /respond.php
+            [PHP_SELF] => /respond.php
+            [REQUEST_TIME] => 1482767229
+        )
+
+    [conf] => Array
+        (
+            [smtp] => Array
+                (
+                    [host] => smtp.163.com
+                    [from] => gmt_web@163.com
+                    [auth] => 1
+                    [fromname] => 邮件发送服务器
+                    [username] => gmt_web@163.com
+                    [password] => abcd1234
+                )
+
+            [db] => Array
+                (
+                    [driver] => mysql
+                    [host] => localhost
+                    [user] => root
+                    [passwd] => abcD!@#$
+                    [dbname] => gmt
+                )
+
+        )
+
+    [multi_language] => Array
+        (
+            [0] => zh
+            [1] => en
+        )
+
+    [order_state] => Array
+        (
+            [] => 
+            [-1] => 已撤消
+            [0] => 未处理
+            [1] => 已完成
+        )
+
+    [test_center] => Array
+        (
+            [1] => 广州考试中心
+        )
+
+    [xml] => <xml><appid><![CDATA[wx81b12ea3daceaf59]]></appid>
+<bank_type><![CDATA[CFT]]></bank_type>
+<cash_fee><![CDATA[1]]></cash_fee>
+<code><![CDATA[wxpay]]></code>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[N]]></is_subscribe>
+<mch_id><![CDATA[1311354601]]></mch_id>
+<nonce_str><![CDATA[x1r5t675qwv82kydr4poatvewvm6n5vr]]></nonce_str>
+<openid><![CDATA[o1Nc2w3pKIizQJIEO0huvaPyRdoU]]></openid>
+<out_trade_no><![CDATA[GMT201612269429]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[6C8E95B0FA188EF89568877677659F27]]></sign>
+<time_end><![CDATA[20161226231300]]></time_end>
+<total_fee>1</total_fee>
+<trade_type><![CDATA[NATIVE]]></trade_type>
+<transaction_id><![CDATA[4003612001201612264106649789]]></transaction_id>
+</xml>
+    [file_name] => E:\phpSL\WWW\gmt/test0.txt
+    [array_data] => Array
+        (
+            [appid] => wx81b12ea3daceaf59
+            [bank_type] => CFT
+            [cash_fee] => 1
+            [code] => wxpay
+            [fee_type] => CNY
+            [is_subscribe] => N
+            [mch_id] => 1311354601
+            [nonce_str] => x1r5t675qwv82kydr4poatvewvm6n5vr
+            [openid] => o1Nc2w3pKIizQJIEO0huvaPyRdoU
+            [out_trade_no] => GMT201612269429
+            [result_code] => SUCCESS
+            [return_code] => SUCCESS
+            [sign] => 6C8E95B0FA188EF89568877677659F27
+            [time_end] => 20161226231300
+            [total_fee] => 1
+            [trade_type] => NATIVE
+            [transaction_id] => 4003612001201612264106649789
+        )
+
+    [pay_code] => wxpay
+    [plugin_file] => E:\phpSL\WWW\gmt/app/lib/payment/wxpay.php
+    [payment] => wxpay Object
+        (
+            [wxpay_app_id] => wx81b12ea3daceaf59
+            [wxpay_app_secret] => fd247c74935b641c2835e7bed2c52ce2
+            [wxpay_partnerid] => 1311354601
+            [wxpay_partnerkey] => ouXHoLWylomJdOSV3JL4Zbdd7DTYl1wO
+            [SSLCERT_PATH:wxpay:private] => E:\phpSL\WWW\gmt/app/lib\payment\wxpay\cacert\apiclient_cert.pem
+            [SSLKEY_PATH:wxpay:private] => E:\phpSL\WWW\gmt/app/lib\payment\wxpay\cacert\apiclient_key.pem
+        )
+
+    [test_no] => 0
+)

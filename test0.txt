@@ -1,0 +1,141 @@
+Array
+(
+    [GLOBALS] => Array
+ *RECURSION*
+    [HTTP_RAW_POST_DATA] => <xml><appid><![CDATA[wx81b12ea3daceaf59]]></appid>
+<bank_type><![CDATA[CFT]]></bank_type>
+<cash_fee><![CDATA[1]]></cash_fee>
+<code><![CDATA[wxpay]]></code>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[N]]></is_subscribe>
+<mch_id><![CDATA[1311354601]]></mch_id>
+<nonce_str><![CDATA[elcceajwjc87e6c0uico2gg7wqzr77yt]]></nonce_str>
+<openid><![CDATA[o1Nc2w2D4_VaD7rDpV340-EA3EAU]]></openid>
+<out_trade_no><![CDATA[GMT201612265768]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[805FBFB3567E1A62346510A805D2F2A1]]></sign>
+<time_end><![CDATA[20161226234805]]></time_end>
+<total_fee>1</total_fee>
+<trade_type><![CDATA[NATIVE]]></trade_type>
+<transaction_id><![CDATA[4002032001201612264107861677]]></transaction_id>
+</xml>
+    [_POST] => Array
+        (
+        )
+
+    [_GET] => Array
+        (
+        )
+
+    [_COOKIE] => Array
+        (
+        )
+
+    [_FILES] => Array
+        (
+        )
+
+    [_REQUEST] => Array
+        (
+        )
+
+    [_SERVER] => Array
+        (
+            [HTTP_USER_AGENT] => Mozilla/4.0
+            [HTTP_ACCEPT] => */*
+            [HTTP_HOST] => www.gmtest.org.cn
+            [CONTENT_TYPE] => text/xml
+            [CONTENT_LENGTH] => 808
+            [HTTP_PRAGMA] => no-cache
+            [HTTP_CONNECTION] => Keep-Alive
+            [PATH] => C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;
+            [SystemRoot] => C:\Windows
+            [COMSPEC] => C:\Windows\system32\cmd.exe
+            [PATHEXT] => .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+            [WINDIR] => C:\Windows
+            [SERVER_SIGNATURE] => 
+            [SERVER_SOFTWARE] => Apache/2.4.10 (Win32) OpenSSL/0.9.8zb PHP/5.3.29
+            [SERVER_NAME] => www.gmtest.org.cn
+            [SERVER_ADDR] => 120.76.79.153
+            [SERVER_PORT] => 80
+            [REMOTE_ADDR] => 140.207.54.74
+            [DOCUMENT_ROOT] => E:/phpSL/WWW/gmt
+            [REQUEST_SCHEME] => http
+            [CONTEXT_PREFIX] => 
+            [CONTEXT_DOCUMENT_ROOT] => E:/phpSL/WWW/gmt
+            [SERVER_ADMIN] => admin@phpStudy.net
+            [SCRIPT_FILENAME] => E:/phpSL/WWW/gmt/respond.php
+            [REMOTE_PORT] => 53327
+            [GATEWAY_INTERFACE] => CGI/1.1
+            [SERVER_PROTOCOL] => HTTP/1.1
+            [REQUEST_METHOD] => POST
+            [QUERY_STRING] => 
+            [REQUEST_URI] => /respond.php
+            [SCRIPT_NAME] => /respond.php
+            [PHP_SELF] => /respond.php
+            [REQUEST_TIME] => 1482767299
+        )
+
+    [conf] => Array
+        (
+            [smtp] => Array
+                (
+                    [host] => smtp.163.com
+                    [from] => gmt_web@163.com
+                    [auth] => 1
+                    [fromname] => 邮件发送服务器
+                    [username] => gmt_web@163.com
+                    [password] => abcd1234
+                )
+
+            [db] => Array
+                (
+                    [driver] => mysql
+                    [host] => localhost
+                    [user] => root
+                    [passwd] => abcD!@#$
+                    [dbname] => gmt
+                )
+
+        )
+
+    [multi_language] => Array
+        (
+            [0] => zh
+            [1] => en
+        )
+
+    [order_state] => Array
+        (
+            [] => 
+            [-1] => 已撤消
+            [0] => 未处理
+            [1] => 已完成
+        )
+
+    [test_center] => Array
+        (
+            [1] => 广州考试中心
+        )
+
+    [xml] => <xml><appid><![CDATA[wx81b12ea3daceaf59]]></appid>
+<bank_type><![CDATA[CFT]]></bank_type>
+<cash_fee><![CDATA[1]]></cash_fee>
+<code><![CDATA[wxpay]]></code>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[N]]></is_subscribe>
+<mch_id><![CDATA[1311354601]]></mch_id>
+<nonce_str><![CDATA[elcceajwjc87e6c0uico2gg7wqzr77yt]]></nonce_str>
+<openid><![CDATA[o1Nc2w2D4_VaD7rDpV340-EA3EAU]]></openid>
+<out_trade_no><![CDATA[GMT201612265768]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[805FBFB3567E1A62346510A805D2F2A1]]></sign>
+<time_end><![CDATA[20161226234805]]></time_end>
+<total_fee>1</total_fee>
+<trade_type><![CDATA[NATIVE]]></trade_type>
+<transaction_id><![CDATA[4002032001201612264107861677]]></transaction_id>
+</xml>
+    [file_name] => E:\phpSL\WWW\gmt/test0.txt
+)
